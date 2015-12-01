@@ -1,0 +1,110 @@
+
+@font-face {
+    font-family: 'retro';
+    src: url('cssfont/fonts/computer/retro_computer_demo-webfont.eot');
+    src: url('cssfont/fonts/computer/recssfont/fonts/computer/tro_computer_demo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cssfont/fonts/computer/retro_computer_demo-webfont.woff2') format('woff2'),
+         url('cssfont/fonts/computer/retro_computer_demo-webfont.woff') format('woff'),
+         url('cssfont/fonts/computer/retro_computer_demo-webfont.ttf') format('truetype'),
+         url('cssfont/fonts/computer/retro_computer_demo-webfont.svg#retro_computerregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gothicregular';
+    src: url('cssfont/fonts/LeagueGothic/leaguegothic-regular-webfont.eot');
+    src: url('cssfont/fonts/LeagueGothic/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cssfont/fonts/LeagueGothic/leaguegothic-regular-webfont.woff2') format('woff2'),
+         url('cssfont/fonts/LeagueGothic/leaguegothic-regular-webfont.woff') format('woff'),
+         url('cssfont/fonts/LeagueGothic/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('cssfont/fonts/LeagueGothic/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'caviardreamsbold';
+    src: url('cssfont/fonts/CaviarDreams/caviar_dreams_bold-webfont.eot');
+    src: url('cssfont/fonts/CaviarDreams/caviar_dreams_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cssfont/fonts/CaviarDreams/caviar_dreams_bold-webfont.woff2') format('woff2'),
+         url('cssfont/fonts/CaviarDreams/caviar_dreams_bold-webfont.woff') format('woff'),
+         url('cssfont/fonts/CaviarDreams/caviar_dreams_bold-webfont.ttf') format('truetype'),
+         url('cssfont/fonts/CaviarDreams/caviar_dreams_bold-webfont.svg#caviar_dreamsbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.kevin-c {
+ background-color: rgba(77, 179, 224, 0.5); /*bleu */
+}
+.jeanne-darc {
+  background-color: rgba(159, 59, 168, 0.5);/* violet*/
+}
+.chinois {
+  background-color: rgba(231, 145, 37, 0.7);/* orange */
+}
+.sarah {
+background-color: rgba(183, 36, 38, 0.7); /* rouge*/
+}
+
+
+section{
+  display: flex;
+flex-direction: column;
+}
+
+article{
+  display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+h3, h5{
+font-family: 'retro';
+font-size: 4.2em;
+}
+.qui{
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+border: solid 1px black;
+  width: 50%;
+  height: 35%;
+box-shadow: 0px 4px 4px 4px #303030 ;}
+.qui p{
+  text-align: justify;
+
+}
+
+h3{text-align: center}
+p, ul{
+font-family: caviardreamsbold;
+flex-grow: 2;
+align-self: flex-end;
+
+}
+section li{font-family: gothicregular;
+font-size: 3em;}
+
+/* body{background-color: white;
+background-image: linear-gradient(335deg, #b00 23px, transparent 23px),
+linear-gradient(155deg, #d00 23px, transparent 23px),
+linear-gradient(335deg, #b00 23px, transparent 23px),
+linear-gradient(155deg, #d00 23px, transparent 23px);
+background-size: 58px 58px;
+background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;} */
+/* header, footer{
+  background-color: white;
+  background-image: linear-gradient(335deg, #b00 23px, transparent 23px),
+  linear-gradient(155deg, #d00 23px, transparent 23px),
+  linear-gradient(335deg,#b00  23px, transparent 23px),
+  linear-gradient(155deg, #d00 23px, transparent 23px);
+  background-size: 58px 58px;
+  background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
+}
+*/
+nav {}
+  footer{ text-align: center;
+}
